@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.bg-container {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+  background-color: #150b3e;
+  width: 600px;
+  height: 600px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+}
+.name {
+  color: #d4d2db;
+  font-size: 40px;
+  font-family: Roboto;
+}
+
+.logo-name {
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.your-balance-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.bal-para {
+  color: #585076;
+  font-size: 25px;
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+.remaining-balance {
+  color: #d4d2db;
+  font-family: Roboto;
+}
+
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
